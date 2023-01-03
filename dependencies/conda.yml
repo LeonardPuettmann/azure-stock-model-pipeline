@@ -1,0 +1,17 @@
+name: model-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - numpy
+  - pip
+  - lightgbm
+  - pandas
+  - pip:
+    - inference-schema[numpy-support]
+    - xlrd
+    - mlflow
+    - azureml-mlflow
+    - azure-ai-ml
+    - azureml-fsspec 
+    - mltable
